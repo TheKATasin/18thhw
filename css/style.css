@@ -1,0 +1,121 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+ul, ol{
+    list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6, p{
+    line-height: 0.8;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+/* common css end */
+.div{
+    padding-bottom: 30px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+.div h3{
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+
+}
+.bg{
+    background: #000;
+    padding: 300px 0;
+}
+.counters{
+    height: 100px;
+    width: 250px;
+    padding: 18px;
+    text-align: center;
+    background: #fff;
+    border: 2px solid gray;
+    border-radius: 20px;
+    float: left;
+}
+.counters h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.counters h1{
+    font-family: 'Fragment Mono', monospace;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 25px;
+}
+/* counter */
+.counter_item{
+    height: 100px;
+    width: 250px;
+    padding: 18px;
+    text-align: center;
+    background: #fff;
+    border: 2px solid gray;
+    border-radius: 20px;
+    float: left;
+}
+.counter_item h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.counter_item h1{
+    font-family: 'Fragment Mono', monospace;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 25px;
+}
+/* lightbox */
+.images{
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    float: left;
+}
+.images a img{
+    width: 100%;
+    height: 100%;
+}
+/* venobox */
+#video{
+    background: url(../images/9.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.overlay{
+    padding: 379px 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+.overlay .play{
+    text-align: center;
+    margin: 0 auto;
+}
+i{
+    font-size: 80px;
+    color: #fff;
+}
